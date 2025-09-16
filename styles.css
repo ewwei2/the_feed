@@ -1,0 +1,37 @@
+body{
+    padding-top: 100px;
+	background-color: rgb(250, 218, 221);
+	color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 100px;
+
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+a {
+	color: maroon
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+.images{
+    text-align: center;
+}
+
+.back{
+    text-align: center;
+}
+
+@font-face{
+    font-family: pixel;
+    src: url(PixelifySans-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'pixel';
+}
